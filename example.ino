@@ -6,7 +6,7 @@ struct Indicator {
 Indicator rightIndicator = {false, 0};
 Indicator leftIndicator = {false, 0};
 
-const int ALLOWED_CYCLES = 300;
+const int ALLOWED_CYCLES = 300; // Change this to change the time (unojoy cycles) for which the button will be pressed
 // Other global variables declared above...
 
 // Void Setup() and Void Loop() same as default...
